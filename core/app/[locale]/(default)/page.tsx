@@ -84,6 +84,9 @@ export default async function Home({ params }: Props) {
 
   return (
     <>
+       <div>
+        <h1>Test header customisation</h1>
+      </div>
       <Slideshow />
 
       <FeaturedProductsList
